@@ -1,0 +1,9 @@
+.first_animation {
+	width: 200px;
+	height: 200px;
+}
+
+.first_animation p {
+	text-align: center;
+	font-size: 19px;
+}
