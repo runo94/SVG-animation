@@ -17,3 +17,26 @@
     transition: all .5s ease; }
   .first_animation .vertical_line {
     transition: all .2s ease; }
+
+#line path#line-road {
+  opacity: 1;
+  animation: dash 2s linear forwards;
+  stroke-dasharray: 1020;
+  stroke-dashoffset: 1020; }
+
+#line path#line-fill {
+  animation: fade 1s linear forwards; }
+
+svg {
+  overflow: visible; }
+  svg .data {
+    fill: #F36F21;
+    stroke-width: 1; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes fade {
+  to {
+    opacity: 1; } }
