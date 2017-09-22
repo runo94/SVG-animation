@@ -1,0 +1,23 @@
+.container {
+  position: absolute;
+  z-index: 2;
+  display: block; }
+
+#ic_pm {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: dash 5s ease-in forwards; }
+
+#second_user_path0_fill {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: dash 2s ease-in forwards; }
+
+.bg-svg {
+  position: relative;
+  z-index: 1;
+  display: block; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
