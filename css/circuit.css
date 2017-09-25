@@ -8,6 +8,16 @@
   stroke-dashoffset: 1500;
   animation: dash 5s ease-in forwards; }
 
+#ic_client {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: dash 5s ease-in forwards; }
+
+#teamleader {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: dash 5s ease-in forwards; }
+
 #second_user_path0_fill {
   stroke-dasharray: 1500;
   stroke-dashoffset: 1500;
