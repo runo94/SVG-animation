@@ -4,28 +4,78 @@
 	display: block;
 }
 
-#ic_pm {
+
+#line, #teamleader, #ic_pm, #second_user_path0_fill {
   stroke-dasharray: 1500;
   stroke-dashoffset: 1500;
   animation: dash 5s ease-in forwards;
+
 }
 
 #ic_client {
   stroke-dasharray: 1500;
   stroke-dashoffset: 1500;
-  animation: dash 5s ease-in forwards;
+  animation: dash 4s ease-in forwards;
 }
 
-#teamleader {
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
-  animation: dash 5s ease-in forwards;
+#developer1 {
+	stroke-dasharray: 1500;
+ 	stroke-dashoffset: 1500;
+	animation: dash 2s ease-in forwards;
 }
 
-#second_user_path0_fill {
+#developer2, #justlineattable {
+	stroke-dasharray: 1500;
+ 	stroke-dashoffset: 1500;
+	animation: dash 3s ease-in forwards;
+}
+
+#developer3 {
+	stroke-dasharray: 1500;
+ 	stroke-dashoffset: 1500;
+	animation: dash 4s ease-in forwards;
+}
+
+#developer4 {
+	stroke-dasharray: 1500;
+ 	stroke-dashoffset: 1500;
+	animation: dash 5s ease-in forwards;
+}
+
+#devtable {
   stroke-dasharray: 1500;
   stroke-dashoffset: 1500;
-  animation: dash 2s ease-in forwards;
+  animation: dash 1s ease-in forwards;	
+}
+
+#qatable {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: dash 2s ease-in forwards;		
+}
+
+#firstqa {
+	stroke-dasharray: 1500;
+ 	stroke-dashoffset: 1500;
+	animation: dash 2s ease-in forwards;	
+}
+
+#secqa {
+	stroke-dasharray: 1500;
+ 	stroke-dashoffset: 1500;
+	animation: dash 3s ease-in forwards;	
+}
+
+#tasktable {
+  stroke-dasharray: 2500;
+  stroke-dashoffset: 2500;
+  animation: dash 1s ease-in forwards;	
+}
+
+ #line1 {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: dash 3s ease-in forwards;
 }
 
 .bg-svg {
@@ -33,6 +83,54 @@
 	z-index: 1;
 	display: block;
 }
+
+
+
+
+
+#task1 {
+	stroke-dasharray: 1500;
+ 	stroke-dashoffset: 1500;
+ 	animation: dash 1s 1.15s ease-in forwards;
+}
+
+#task2 {
+	stroke-dasharray: 1100;
+ 	stroke-dashoffset: 1100;
+ 	animation: dash 1s 1.3s ease-in forwards;
+}
+
+#task3 {
+	stroke-dasharray: 1100;
+ 	stroke-dashoffset: 1100;
+ 	animation: dash 1s 1.45s ease-in forwards;
+}
+
+#task4 {
+	stroke-dasharray: 1100;
+ 	stroke-dashoffset: 1100;
+ 	animation: dash 1s 1.5s ease-in forwards;
+}
+
+#task5 {
+	stroke-dasharray: 1100;
+ 	stroke-dashoffset: 1100;
+ 	animation: dash 1s 1.65s ease-in forwards;
+}
+
+#task6 {
+	stroke-dasharray: 1100;
+ 	stroke-dashoffset: 1100;
+ 	animation: dash 1s 1.8s ease-in forwards;
+}
+
+#task7 {
+	stroke-dasharray: 1100;
+ 	stroke-dashoffset: 1100;
+ 	animation: dash 1s 1.95s ease-in forwards;
+}
+
+
 
 @keyframes dash {
 to {
