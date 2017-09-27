@@ -66,7 +66,7 @@
 	animation: dash 3s ease-in forwards;	
 }
 
-#tasktable {
+#tasktable, #versiontable, #servertable {
   stroke-dasharray: 2500;
   stroke-dashoffset: 2500;
   animation: dash 1s ease-in forwards;	
@@ -100,7 +100,7 @@
  	animation: dash 1s 1.3s ease-in forwards;
 }
 
-#task3 {
+#task3, #linearrow1, #linearrow2, #linearrow3, #vergraf, #linearrow4 {
 	stroke-dasharray: 1100;
  	stroke-dashoffset: 1100;
  	animation: dash 1s 1.45s ease-in forwards;
